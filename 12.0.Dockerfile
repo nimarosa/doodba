@@ -111,6 +111,7 @@ RUN python -m venv --system-site-packages /qa/venv \
         click \
         coverage \
         flake8 \
+        pbr \
         pylint-odoo \
         six \
     && npm install --loglevel error --prefix /qa 'eslint@<7' \
